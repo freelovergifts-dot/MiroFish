@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "MiroFish backend is running"}
+    return {"status": "MiroFish backend is running!"}
