@@ -15,4 +15,4 @@ COPY backend/ .
 EXPOSE $PORT
 
 # Start FastAPI on Render's port
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "$PORT"]
+CMD ["uvicorn", "run:app", "--host", "0.0.0.0", "--port", "$PORT"]
